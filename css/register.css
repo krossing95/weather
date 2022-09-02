@@ -1,0 +1,82 @@
+body{
+    left: 0;
+    top: 0;
+    background: teal !important;
+}
+::selection{
+    background: rgb(90, 89, 89);
+    color: rgb(227, 231, 231);
+}
+#register{
+    background-color: #ffffff;
+    padding-left: 0;
+    max-width: 400px;
+    margin: 5% auto;
+    overflow-x: hidden;
+    padding: 10px 20px;
+    box-shadow: 0 0 40px;
+}
+.register-header h1{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.register-header i{
+    color: yellowgreen;
+}
+.register-header h1 span{
+    font-weight: 700;
+    color: yellowgreen;
+}
+.register-box .title{
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.register-box .suggestions{
+    text-align: left;
+    font-weight: 500;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.register-box .suggestions b{
+    font-weight: 200 !important;
+    font-size: 15px;
+}
+.register-box .suggestions b:hover{
+    color:yellowgreen;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: yellowgreen 1px solid !important;
+    padding: 20px 10px !important;
+}
+.form-control:focus{
+    box-shadow: 0 0 0px !important;
+    border: 1px teal solid !important;
+}
+.btn{
+    width: 100% !important;
+    background: yellowgreen !important;
+    border-radius: 0 !important;
+    padding: 15px 10px !important;
+    color: white !important;
+}
+.btn:hover{
+    background: teal !important;
+}
+.link{
+    text-decoration: none !important;
+    text-align: center;
+    color: teal;
+}
+#messages{
+    text-align: center;
+    font-weight: 600;
+}
+.enl{
+    color: #ffffff;
+}
+.title{
+    padding-bottom: 30px;
+}
